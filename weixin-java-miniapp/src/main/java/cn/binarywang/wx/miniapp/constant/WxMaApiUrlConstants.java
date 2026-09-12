@@ -387,7 +387,7 @@ public class WxMaApiUrlConstants {
     String CODE_2_VERIFY_INFO_URL = "https://api.weixin.qq.com/wxa/sec/checkcode2verifyinfo";
     /** 检查登录态接口 */
     String CHECK_SESSION_KEY_URL =
-        "https://api.weixin.qq.com/wxa/checksessionkey?openid=%s&signature=%s&sig_method=hmac_sha256";
+        "https://api.weixin.qq.com/wxa/checksession?openid=%s&signature=%s&sig_method=hmac_sha256";
   }
 
   public interface Ocr {
