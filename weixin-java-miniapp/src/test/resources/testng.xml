@@ -4,6 +4,7 @@
   <test name="Unit_Test">
     <classes>
       <class name="cn.binarywang.wx.miniapp.api.impl.WxMaSubscribeServiceImplUrlTest"/>
+      <class name="cn.binarywang.wx.miniapp.api.impl.WxMaUserServiceImplCheckSessionKeyTest"/>
     </classes>
   </test>
 </suite>

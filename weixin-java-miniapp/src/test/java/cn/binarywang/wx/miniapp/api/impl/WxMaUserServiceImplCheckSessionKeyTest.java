@@ -29,7 +29,7 @@ public class WxMaUserServiceImplCheckSessionKeyTest {
     verify(wxMaService).get(url.capture(), isNull());
     assertEquals(url.getValue(),
       "https://api.weixin.qq.com/wxa/checksession?openid=user-openid&signature="
-        + SignUtils.createHmacSha256Sign("", "session-key")
+        + SignUtils.createHmacSha256Sign("", "session-key").toLowerCase()
         + "&sig_method=hmac_sha256");
   }
 }
