@@ -12,7 +12,7 @@ import java.util.concurrent.locks.Lock;
  *
  * @author yangyidian
  */
-public abstract class AbstractWxOpenInRedisOpsConfigStorage extends AbstractWxOpenInRedisConfigStorage {
+abstract class AbstractWxOpenInRedisOpsConfigStorage extends AbstractWxOpenInRedisConfigStorage {
 
   /**
    * redis 操作实现
